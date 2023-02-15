@@ -202,7 +202,7 @@ function checkAnagram(string1, string2) {
     // }
 }
 
-console.log(checkAnagram("anagram", "nagaram"))
+// console.log(checkAnagram("anagram", "nagaram"))
 
 
 //PR : Breakout room zoom
@@ -212,5 +212,54 @@ console.log(checkAnagram("anagram", "nagaram"))
 //Room: 3
 //User:10
 //room will be consist 3-4 people
+
+
+//Exercise 5: staircase
+// 1 step atau 2 step
+// 2: 2 cara (1 1) (2)
+// 3: 3 cara (1 1 1) (1 2) (2 1)
+// 4: 5 cara (1 1 1 1) (2 2) (1 2 1) (2 1 1) (1 1 2)
+
+// 1 2 3 5 8 13 Fibonacci
+
+function stairCase(n) {
+    let newArr = []
+    newArr[0] = 1 //jika staircase ada 1 maka ada 1 langkah
+    newArr[1] = 2 //jika staircase ada 2 maka ada 2 langkah
+    // newArr[2] = 3
+    // newArr[3] = 5
+    for (let i = 2; i < n; i++) {
+        newArr[i] = newArr[i - 1] + newArr[i - 2]
+    }
+    console.log(newArr[n - 1])
+}
+stairCase(10)
+
+//Breakoutroom
+// input: banyaknya ruangan yang mau dibuat, dan banyaknya peserta
+//output: Room will be consist 3-4
+function breakoutRoom(rooms, participants) {
+    let sisaBagi = participants % rooms
+
+    let roomMinSize = Math.floor(participants / rooms) //pembulatan kebawah
+    console.log("tanpa pembulatan", participants / rooms)
+    console.log("pembulatan kebawah", Math.floor(participants / rooms))
+    console.log("pembulatan keatas", Math.ceil(participants / rooms))
+    console.log("pembulatan ", Math.round(3.5))
+
+
+    if (sisaBagi > 0) {
+        console.log(`Room will be consist ${roomMinSize} - ${roomMinSize + 1}`)
+
+    } else {
+        console.log(`Room will be consist ${roomMinSize}`)
+    }
+}
+
+
+breakoutRoom(3, 20)
+
+
+
 
 
