@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+@font-face {
+    font-family: spotify;
+    src: url(./fonts/Gotham-Black.otf);
+}
+
+p{
+    font-family: 'spotify', sans-serif;
+}
+h1{
+    font-family: 'spotify', sans-serif;
+    font-weight: 800;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 200px;
+    background-color: black;
+    color:white;
+    height: 70px ;
+    align-items: center;
+}
+.nav-items{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}

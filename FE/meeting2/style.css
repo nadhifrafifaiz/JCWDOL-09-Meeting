@@ -1,0 +1,155 @@
+body{
+    background-color: white;
+    text-align: center;
+}
+
+.sample-text{
+    color:red;
+    font-size: 20px;
+}
+
+
+/* GRID */
+#content{
+    max-width: 960px;
+    margin: 0 auto; 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr ;
+    column-gap: 10px;
+    row-gap: 10px;
+    /* grid-template-columns: 30% 30% 30%; */
+    /* grid-template-columns: repeat(3,1fr); */
+
+}
+
+#content div{
+    background-color: blue;
+    padding: 30px;
+}
+#content div:nth-child(even){
+    background-color: gray;
+}
+
+.kotak1{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+
+
+/* Recreate Spotify Component */
+#why-premium{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    column-gap: 10px;
+    max-width: 1200px;
+    margin: 0 auto; 
+}
+@media only screen and (max-width:768px){
+    #why-premium{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media only screen and (max-width: 600px) {
+    #why-premium{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+
+
+#why-premium div{
+    min-height: 100px;
+}
+
+.card{
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+}
+
+.image{
+    margin: auto;
+    border-radius: 100%;
+    margin-top: 20px;
+}
+
+.description{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+/* FLEX BOX */
+#main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#main div{
+    width: 50px;
+    height: 50px;
+    transition: 0.5s;
+}
+
+#main div:hover{
+    width: 60px;
+    height: 60px;
+    transform: rotate(45deg)
+}
+
+
+button{
+    background-color: lightblue;
+    border: 2px solid lightgray;
+    border-radius: 10px;
+    padding: 15px 30px;
+    font-size: 20px;
+    transition: 0.5s;
+}
+button:hover{
+    background-color: rgb(84, 203, 243);
+    cursor: pointer;
+    color: #ccc;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: lightblue;
+    }
+    .sample-text{
+        font-size: 10px;
+    }
+    #content{
+        display: none;
+    }
+}
+
+@media only screen and (max-width:768px){
+    .sample-text{
+        font-size: 20px;
+    }
+}
