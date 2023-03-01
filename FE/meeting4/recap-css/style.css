@@ -1,0 +1,44 @@
+/* Selector */
+/* Element, ID, Class */
+
+/* Element Selector */
+/* h1{
+    background-color: red;
+}
+
+body{
+    background-color: yellow;
+} */
+
+
+/* ID Selector */
+#intro{
+    color:red
+}
+
+/* Class Selector */
+.text{
+    background-color:blue;
+    margin:50px;
+    padding:20px
+}
+
+.big-text{
+    font-size: 40px;
+}
+
+.test-div div p{
+    color: blueviolet;
+}
+
+.flex-container{
+    background-color: orange;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 400px;
+}
+
+.flex-container div{
+    background-color: aquamarine;
+}
