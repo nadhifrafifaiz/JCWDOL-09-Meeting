@@ -1,7 +1,9 @@
 import React from "react";
 import Cookies from "js-cookie";
+import { useSelector } from "react-redux";
 
 function LearnStorage() {
+  const count = useSelector((state) => state.counter.value);
   //LOCAL STORAGE
   const addLocalStorage = () => {
     alert("success add localstorage");
@@ -33,7 +35,7 @@ function LearnStorage() {
   return (
     <div className="grid grid-cols-3 m-auto w-3/4">
       <div>
-        <p>Local Storage</p>
+        <p>Local Storage {count}</p>
         <button
           onClick={addLocalStorage}
           className="rounded-md  px-2 py-1 mb-1 text-xs font-semibold bg-green-300 mr-2"

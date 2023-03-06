@@ -1,0 +1,60 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "productName": "Kaos Hitam Polos",
+      "price": 25000,
+      "productImage": "https://hm-media-prod.s3.amazonaws.com/pub/media/catalog/product/medium/fd2a2f32f4199a5dd9039b7330d464cf84ff1d90_xxl-1.jpg",
+      "description": "Ini barang bagus loh",
+      "category": "kaos"
+    },
+    {
+      "id": 2,
+      "productName": "Kaos Putih Polos",
+      "price": 24000,
+      "productImage": "https://hm-media-prod.s3.amazonaws.com/pub/media/catalog/product/medium/5b3a3d790de70374f149e571401d91f94fb20153_xxl-1.jpg",
+      "description": "Ini barang bener bener bener juga bagus loh",
+      "category": "kaos"
+    },
+    {
+      "id": 3,
+      "productName": "Celana Jeans",
+      "price": 40000,
+      "productImage": "https://hm-media-prod.s3.amazonaws.com/pub/media/catalog/product/medium/59b10f5e939b0042f870e53dd78b0f468879b4bc_xxl-1.jpg",
+      "description": "Ini barang bagus loh",
+      "category": "celana"
+    },
+    {
+      "id": 4,
+      "productName": "Jeans Hitam",
+      "price": 50000,
+      "productImage": "https://hm-media-prod.s3.amazonaws.com/pub/media/catalog/product/medium/fa6817d61c3d772cde315c57067eabcc3873047f_xxl-1.jpg",
+      "description": "Ini barang bagus loh",
+      "category": "celana"
+    },
+    {
+      "id": 7,
+      "productName": "Chino",
+      "price": 70000,
+      "productImage": "https://hm-media-prod.s3.amazonaws.com/pub/media/catalog/product/medium/54e0900662ad6533bef423a9c7d39a6f1b2f0fa3_xxl-1.jpg",
+      "description": "Ini barang bagus loh",
+      "category": "celana"
+    },
+    {
+      "id": 8,
+      "productName": "Kaos Friends",
+      "price": 150000,
+      "productImage": "https://hm-media-prod.s3.amazonaws.com/pub/media/catalog/product/medium/2ab256f6bc1be8e0347c606bb6751ad0ab617a94_xxl-1.jpg",
+      "description": "Ini barang bagus loh",
+      "category": "kaos"
+    },
+    {
+      "id": 9,
+      "productName": "Beenie Star Wars",
+      "price": 100000,
+      "productImage": "https://hm-media-prod.s3.amazonaws.com/pub/media/catalog/product/medium/2612507eccf101fe51b230ad51fc47fa59a51aa7_xxl-1.jpg",
+      "description": "Ini barang bagus loh",
+      "category": "aksesoris"
+    }
+  ]
+}
