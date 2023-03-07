@@ -17,6 +17,8 @@ import { useNavigate } from "react-router";
 function ProductCard(props) {
   const { product } = props;
   const navigate = useNavigate();
+
+  const addToCart = () => {};
   return (
     <Card maxW="sm">
       <CardBody>
@@ -46,7 +48,7 @@ function ProductCard(props) {
           >
             See Detail
           </Button>
-          <Button variant="ghost" colorScheme="blue">
+          <Button variant="ghost" colorScheme="blue" onClick={addToCart}>
             Add to cart
           </Button>
         </ButtonGroup>

@@ -25,6 +25,12 @@ function Navbar() {
         <button onClick={() => navigate("/users")} className="text-white">
           Users
         </button>
+        <button
+          onClick={() => navigate("/user-edit-delete")}
+          className="text-white"
+        >
+          Users Edit Delete
+        </button>
       </div>
     </div>
   );

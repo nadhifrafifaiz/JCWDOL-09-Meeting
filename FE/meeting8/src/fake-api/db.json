@@ -57,11 +57,5 @@
       "category": "aksesoris"
     }
   ],
-  "carts": [
-    {
-      "id": 1,
-      "productName": "Kaos",
-      "quantity": 2
-    }
-  ]
+  "carts": []
 }

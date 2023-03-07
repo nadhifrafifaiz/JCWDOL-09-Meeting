@@ -7,6 +7,7 @@ import { Routes, Route } from 'react-router-dom'
 import Navbar from './components/Navbar';
 import Chakra from './pages/Chakra';
 import Users from './pages/Users';
+import UserEditDelete from './pages/UserEditDelete';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path='/about' element={<About />} />
         <Route path='/chakra' element={<Chakra />} />
         <Route path='/users' element={<Users />} />
+        <Route path='/user-edit-delete' element={<UserEditDelete />} />
         <Route path='*' element={<Error />} />
       </Routes>
     </div>
